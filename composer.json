@@ -1,0 +1,25 @@
+{
+  "name": "frameworkx/faker",
+  "description": "faker/faker",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "faker",
+      "email": "faker@faker.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "faker\\faker\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "faker\\faker\\PackageServiceProvider"
+      ]
+    }
+  },
+  "require": {}
+}
